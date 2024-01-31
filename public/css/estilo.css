@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+@font-face {
+    font-family: 'GetSchwifty';
+    src: url('get_schwifty.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'GetSchwifty', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 72px;
+}
+
+#searchTerm {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    font-size: 16px;
+    z-index: 1000; 
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#resultado {
+    display: flex;
+    flex-wrap: wrap;
+}
+#buscarPersonaje{
+    position: fixed;
+    top: 20px;
+    left: 250px;
+    padding: 10px;
+    font-size: 16px;
+    z-index: 1000; 
+}
+.character {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+/* CSS para modificar el estilo de los botones */
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
