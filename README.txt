@@ -1,1 +1,1 @@
-https://apirickymorty.onrender.com sfj
+https://apirickymorty-p62s.onrender.com/
