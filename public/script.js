@@ -113,22 +113,4 @@ function mostrarDatosEnResultado(dataArray) {
             `;
         });
 
-        // Agregar manejador de eventos para cada botón "Mostrar Episodios"
-        document.querySelectorAll('.mostrar-episodios').forEach(btn => {
-            btn.addEventListener('click', function() {
-                const episodiosContainer = this.nextElementSibling;
-                episodiosContainer.style.display = episodiosContainer.style.display === 'none' ? 'block' : 'none';
-            });
-        });
-    } else {
-        console.error('No se encontraron resultados para la búsqueda.');
-    }
-}
-
-async function obtenerSiguientePagina() {
-    if (urlSiguiente) {
-        await obtenerDatosRickAndMorty(urlSiguiente);
-    } else {
-        console.log('No hay más páginas disponibles.');
-    }
-}
+        // Agregar manejador de eventos para cada botón "Mostrar Episodios
